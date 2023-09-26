@@ -5793,6 +5793,7 @@ __metadata:
     "@xstate/react": ^2.0.0
     chromatic: ^7.0.0
     concurrently: ^5.2.0
+    cross-env: ^7.0.3
     deep-equal: ^2.2.2
     dotenv: ^8.2.0
     electron: ^25.8.1
@@ -5819,7 +5820,7 @@ __metadata:
     storybook-addon-apollo-client: ^5.0.0
     ts-node: ^8.10.2
     typescript: ^5.2.2
-    vite: 4.4.9
+    vite: ^4.4.9
     vitest: ^0.34.3
     xstate: ^4.29.0
   languageName: unknown
@@ -7562,6 +7563,18 @@ __metadata:
   dependencies:
     buffer: ^5.1.0
   checksum: dabbc4eba223b206068b92ca82bb471d583eb6be2384a87f5c3712730cfd6ba4b13a45e8ba3ef62174d5a781a2c5ac5c20bf36cf37bba73926899bd0aa19186f
+  languageName: node
+  linkType: hard
+
+"cross-env@npm:^7.0.3":
+  version: 7.0.3
+  resolution: "cross-env@npm:7.0.3"
+  dependencies:
+    cross-spawn: ^7.0.1
+  bin:
+    cross-env: src/bin/cross-env.js
+    cross-env-shell: src/bin/cross-env-shell.js
+  checksum: 26f2f3ea2ab32617f57effb70d329c2070d2f5630adc800985d8b30b56e8bf7f5f439dd3a0358b79cee6f930afc23cf8e23515f17ccfb30092c6b62c6b630a79
   languageName: node
   linkType: hard
 
@@ -16301,7 +16314,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:4.4.9, vite@npm:^3.0.0 || ^4.0.0":
+"vite@npm:^3.0.0 || ^4.0.0, vite@npm:^4.4.9":
   version: 4.4.9
   resolution: "vite@npm:4.4.9"
   dependencies:
