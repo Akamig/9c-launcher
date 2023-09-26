@@ -22,6 +22,6 @@ exports.default = async function (configuration) {
     `${runner} ${ESIGNER_CREDENTIAL_ID} ${ESIGNER_USERNAME} ${ESIGNER_PASSWORD} ${ESIGNER_TOTP_SECRET} "${rootPath}" "${configuration.path}" "${dirname}"`,
     {
       stdio: "inherit",
-    }
+    },
   );
 };
